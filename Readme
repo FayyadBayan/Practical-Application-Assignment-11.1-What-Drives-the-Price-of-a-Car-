@@ -1,0 +1,52 @@
+Used Car Price Analysis Report Enjoy Please
+
+Okay, let's get started: Introduction
+This report aims to provide a comprehensive analysis of the factors affecting used car prices. Various statistical models were used to identify these factors and provide recommendations for improving inventory at used car dealers.
+
+Now I will explain the analysis methodology
+Data Collection: Comprehensive data was collected about used cars, including information on price, year of manufacture, manufacturer, condition, number of cylinders, fuel type, mileage, title status, type of transportation, and type of vehicle.
+Data Cleaning: Missing values ​​and unusual data were dealt with to ensure data quality.
+Data Analysis: Multiple regression models were used to identify the factors that most affect used car prices.
+Models used
+Linear Regression
+Ridge Regression
+Lasso Regression
+Key results
+Model performance
+Linear Regression
+
+MSE: 0.029
+R²: 0.2219
+Ridge Regression
+
+MSE: 0.029
+R²: 0.2219
+Best hyperparameters: {'alpha': 10.0}
+Lasso Regression
+
+MSE: 0.037
+R²: -0.00002
+Best hyperparameters: {'alpha': 0.1}
+Interpretation of coefficients
+Positive factors:
+
+Cars manufactured by Ferrari and Porsche have a significant positive impact on prices.
+Cars in "like new" condition significantly increase the price.
+Negative factors:
+
+Cars in "Salvage" or "Fair" condition negatively affect the price.
+Some manufacturers, such as Saturn and Mercury, have a negative impact on prices.
+
+Recommendations
+Optimize inventory:
+
+Focus on vehicles from manufacturers that have shown a positive impact on prices.
+Avoid vehicles in poor condition, such as “Salvage” and “Fair,” unless they are at a significant discount.
+Improve data:
+
+Collecting additional information, such as maintenance history and number of previous owners, can help improve the accuracy of models.
+Use geographic analytics to identify price differences between different regions.
+
+Conclusion
+I have provided a comprehensive analysis of the factors affecting used car prices using different regression models.
+The results: Provide valuable insights for used car dealers on how to optimize their inventory and increase their profits. We recommend adopting these recommendations and applying them to your inventory management strategy to achieve the best results.😁
